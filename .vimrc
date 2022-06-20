@@ -19,6 +19,8 @@ set virtualedit=block
 set clipboard+=unnamed
 " Insert modeでのBack space使用許可
 set backspace=indent,eol,start
+" コマンド履歴保存上限数を200にする
+set history=200
 
 "----------------------------------------
 " 検索
