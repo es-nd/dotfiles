@@ -24,7 +24,7 @@ set history=200
 " キーマッピング Up, Down キーを押さずとも操作できるようにする
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
-
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 
 "----------------------------------------
 " 検索
