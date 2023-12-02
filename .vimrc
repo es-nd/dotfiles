@@ -113,7 +113,9 @@ nnoremap <silent><C-e> :NERDTreeToggle<CR>
 """"""""""""""""""""""""""""""
 " プラグインのセットアップ
 """"""""""""""""""""""""""""""
-call plug#begin('~/.vim/plugged')
+" call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
+
 
 " ファイルオープンを便利に
 Plug 'Shougo/unite.vim'
